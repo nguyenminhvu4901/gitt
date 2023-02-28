@@ -17,6 +17,4 @@ Route::get('/', function () {
     return "Vu dep zai";
 });
 
-Route::get('/post', function () {
-    return "Sang trang post";
-});
+Route::get('/post', [HomeController::class, 'index']);
