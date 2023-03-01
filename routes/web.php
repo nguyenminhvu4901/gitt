@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/post', [HomeController::class, 'index']);
+
+Route::get('/post/update', [HomeController::class, 'update']);
