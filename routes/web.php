@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Vu dep zai";
+    return view('welcome');
 });
 
 Route::get('/post', [HomeController::class, 'index']);
