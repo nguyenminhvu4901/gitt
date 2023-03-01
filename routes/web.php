@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/post', [HomeController::class, 'index']);
 
 Route::get('/post/update', [HomeController::class, 'update']);
+
+Route::delete('/post/destroy', [HomeController::class, 'destroy']);
